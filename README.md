@@ -1,6 +1,9 @@
 # Resume-builder-app
 Create a Resume builder Application in React from scratch...
 
+## Deploy on Netlify
+### Deployment Link - https://resumebuild-webapp.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
