@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.heading{
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 3.1rem;
+    background: linear-gradient(to left,#f04e3f,#450ba1);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+ 
+}
+
+.toolbar{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colors{
+    display: flex;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.colors .active{
+    cursor: pointer;
+}
+
+.colors .color{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: #450ba1;
+}
+
+.toolbar button{
+    margin: 5%;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border-style: none;
+    /* min-width: 15%; */
+    background: linear-gradient(to right,#f86579,#853de4);
+    color: #19043b;
+    outline: none;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toolbar button svg{
+    height: 25px;
+    width: 25px;
+}
+
+.main{
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  width: 100%;
+}
